@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:gravity="right|center"
+        android:textSize="40pt"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAC"
+                android:text="AC"
+                android:layout_height="30pt"
+                android:layout_marginRight="2pt"
+                android:layout_marginLeft="4pt"
+                android:layout_weight="1"
+                android:textColor="#fff">
+            </Button>
+
+            <Button
+                android:id="@+id/btnPlusMinus"
+                android:text="+ / -"
+                android:layout_height="30pt"
+                android:layout_marginRight="2pt"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="1"
+                android:textColor="#fff">
+            </Button>
+
+            <Button
+                android:id="@+id/btnDivide"
+                android:text="/"
+                android:layout_height="30pt"
+                android:layout_marginRight="2pt"
+                android:layout_marginLeft="2pt"
+                android:layout_weight="1"
+                android:textColor="#fff">
+            </Button>
+
+            <Button
+                android:id="@+id/btnMultiplica"
+                android:text="*"
+                android:layout_height="30pt"
+<<<<<<< HEAD
+                android:layout_marginRight="4pt"
+=======
+                android:layout_marginRight="2pt"
+>>>>>>> 8fd8b3550fbd9afe3eda4c9602012a2811dc6d80
+                android:layout_marginLeft="2pt"
+                android:layout_weight="1"
+                android:textColor="#fff">
+            </Button>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

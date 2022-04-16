@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.calculadora">
+=======
+    package="br.com.example.calculadora">
+>>>>>>> 8fd8b3550fbd9afe3eda4c9602012a2811dc6d80
 
     <application
         android:allowBackup="true"
