@@ -10,6 +10,9 @@
 
     <EditText
         android:id="@+id/editText"
+        android:inputType="none"
+        android:textIsSelectable="true"
+        android:focusable="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +20,6 @@
         android:background="@color/gray"
         android:gravity="right|center"
         android:textSize="40pt"
-        android:inputType="textPersonName"
         android:text="0" />
 
     <TableLayout
