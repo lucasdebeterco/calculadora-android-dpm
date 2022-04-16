@@ -32,6 +32,7 @@
             <Button
                 android:id="@+id/btnAC"
                 android:text="AC"
+                android:onClick="acEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="2pt"
                 android:layout_marginLeft="4pt"
@@ -53,6 +54,7 @@
             <Button
                 android:id="@+id/btnDivide"
                 android:text="/"
+                android:onClick="operatorEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="2pt"
                 android:layout_marginLeft="2pt"
@@ -63,6 +65,7 @@
             <Button
                 android:id="@+id/btnMultiplica"
                 android:text="*"
+                android:onClick="operatorEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="4pt"
                 android:layout_marginLeft="2pt"
@@ -111,7 +114,8 @@
 
             <Button
                 android:id="@+id/btnPercent"
-                android:text="/"
+                android:text="%"
+                android:onClick="percentEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="4pt"
                 android:layout_marginLeft="2pt"
@@ -161,6 +165,7 @@
             <Button
                 android:id="@+id/btnPlus"
                 android:text="+"
+                android:onClick="operatorEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="4pt"
                 android:layout_marginLeft="2pt"
@@ -210,6 +215,7 @@
             <Button
                 android:id="@+id/btnMinus"
                 android:text="-"
+                android:onClick="operatorEvent"
                 android:layout_height="30pt"
                 android:layout_marginRight="4pt"
                 android:layout_marginLeft="2pt"
@@ -256,6 +262,7 @@
             <Button
                 android:id="@+id/btnEqual"
                 android:text="="
+                android:onClick="equalEvent"
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_marginRight="2pt"
