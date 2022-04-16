@@ -1,5 +1,4 @@
 # calculadora-android-dpm
 Implementar uma calculadora Android
 
-
-![Layout calculadora](img/calc-sample.png)
+<img src="img/calc-sample.png" width="300">
