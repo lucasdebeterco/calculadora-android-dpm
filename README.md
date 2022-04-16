@@ -2,4 +2,4 @@
 Implementar uma calculadora Android
 
 
-![Layout calculadora](calc-sample.png)
+![Layout calculadora](img/calc-sample.png)
